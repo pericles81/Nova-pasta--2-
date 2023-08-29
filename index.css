@@ -1,0 +1,52 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1em;
+}
+
+body{
+    width: 50%;
+}
+
+#resNum{
+    display: flex;
+    justify-content: space-around;
+    background-color: orange;
+    width: 80%;
+    height: 100px;
+    border-radius: 5px;
+}
+
+p{
+    border-radius: 50%;
+    background-color: rgba(255, 119, 0, 0.686);
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+div{
+    width: 80%;
+    margin-left: 60%;
+    margin-bottom: 3vh;
+}
+.div1, .div2{
+    display: grid;
+    background-color: rgb(254, 196, 97);
+    border-radius: 5px;
+}
+
+input{
+    border-radius: 5px;
+    border:  solid 3px cadetblue;
+    color: cadetblue;
+}
+
+label{
+    color: #e37d11;
+}
+
+.novoBtn{
+    border-radius: 5px;
+    border:  solid 3px cadetblue;
+    color: cadetblue;
+}
