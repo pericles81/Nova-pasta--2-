@@ -48,8 +48,8 @@ function sortearNumeros(){
 
 function imprimir(){
     vetor.forEach((e)=>{
-        const fazoL = document.createElement('p')
-        fazoL.innerHTML = e
+        const p = document.createElement('p')
+        p.innerHTML = e
         resNum.appendChild(fazoL)
     })
 }
