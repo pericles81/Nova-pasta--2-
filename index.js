@@ -50,6 +50,6 @@ function imprimir(){
     vetor.forEach((e)=>{
         const p = document.createElement('p')
         p.innerHTML = e
-        resNum.appendChild(fazoL)
+        resNum.appendChild(p)
     })
 }
